@@ -24,14 +24,24 @@
             </ul>
             <img class="fr logo" src="/images/carved-rock-logo-yellow.png">
         </nav>
-        <input type=" text" /> <button>search</button>
-        <div id='results'>
-            <template id='result'>
-                <div>
-                    <a></a>
-                    <span></span>
-                </div>
-            </template>
+        <div class="pl4">
+            <input type=" text" id="product-id" class="w-30" /> <button class="p1">Load</button>
+            <div id='results'>
+                <template id='result'>
+                    <div id="product-result">
+                        <h1 id="title" class="f-headline lh-solid"></h1>
+                        <div class="f1"> $<span id="price" class="yellow"></span>
+                        </div>
+                        <div class="pv1">
+                            <label class="f4">In stock: </label><span id="quantity" class="f5"></span>
+                        </div>
+                        <div class="pv1">
+                            <label class="f4">Color: </label><span id="color" class="f5 ttc"></span>
+                        </div>
+                        <p id="description" class="f4 mw8"></p>
+                    </div>
+                </template>
+            </div>
         </div>
     </body>
     <footer>

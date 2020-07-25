@@ -1,3 +1,12 @@
 {
-  "products": []
+  "products": [
+    {
+      "name": "Essential Backpack",
+      "price": 259.99,
+      "quantity": 5,
+      "color": "orange",
+      "id": "0124081a-4daa-425a-bb40-d5c016893fe3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Risus quis varius quam quisque. Quis risus sed vulputate odio. Ultrices eros in cursus turpis. Est velit egestas dui id ornare arcu. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Dictumst quisque sagittis purus sit amet volutpat. Sed libero enim sed faucibus turpis in eu. Dui vivamus arcu felis bibendum ut tristique et egestas."
+    }
+  ]
 }
