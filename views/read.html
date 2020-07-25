@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Carved Rock Fitness Admin Site - Get</title>
+        <meta name="author" content="Nate Taylor">
+        </meta>
+        <link rel="stylesheet" href="/stylesheets/tachyons.min.css" />
+        </link>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        </link>
+        <script src="/javascripts/axios.min.js"></script>
+    </head>
+
+    <body>
+        <nav class=" mb2">
+            <ul>
+                <li><a href=" /create">Create</a></li>
+                <li class="active"><a href=" /read">Read</a></li>
+                <li><a href="/update">Update</a></li>
+                <li><a href=" /delete">Delete</a></li>
+                <li><a href=" /search">Search</a></li>
+            </ul>
+            <img class="fr logo" src="/images/carved-rock-logo-yellow.png">
+        </nav>
+        <input type=" text" /> <button>search</button>
+        <div id='results'>
+            <template id='result'>
+                <div>
+                    <a></a>
+                    <span></span>
+                </div>
+            </template>
+        </div>
+    </body>
+    <footer>
+        <script src="/javascripts/read.js"></script>
+    </footer>
+
+</html>
