@@ -1,5 +1,8 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #223640;
 }
 
 a {
@@ -75,4 +78,22 @@ nav > ul > li > a {
 
 h1 {
   color: #223640;
+}
+#results > ul {
+  list-style: none;
+}
+
+#results > ul > li {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li > .id {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
