@@ -1,9 +1,49 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #223640;
 }
 
 a {
   color: #00b7ff;
+}
+
+h1 {
+  margin-top: 0.25em;
+  margin-bottom: 0em;
+}
+
+.yellow {
+  color: #ff9629;
+}
+
+.orange {
+  color: #c74b35;
+}
+
+.brown {
+  color: #825e43;
+}
+
+.dark-green {
+  color: #356337;
+}
+
+.green {
+  color: #a2c54c;
+}
+
+.dark-blue {
+  color: #223640;
+}
+
+.light-blue {
+  color: #538ca9;
+}
+
+.gray {
+  color: #a0a0a0;
 }
 
 nav {
@@ -34,4 +74,26 @@ nav > ul > li.active {
 nav > ul > li > a {
   text-decoration: none;
   color: inherit;
+}
+
+h1 {
+  color: #223640;
+}
+#results > ul {
+  list-style: none;
+}
+
+#results > ul > li {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li > .id {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
