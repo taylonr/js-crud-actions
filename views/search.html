@@ -25,14 +25,52 @@
             </ul>
             <img class="fr logo" src="/images/carved-rock-logo-yellow.png">
         </nav>
-        <input type=" text" /> <button>search</button>
-        <div id='results'>
-            <template id='result'>
-                <div>
-                    <a></a>
-                    <span></span>
+        <div class="pl4">
+            <div>
+                <input type=" text" id="search-terms" class="w-30" />
+                <button class="p1" id="search">Search</button>
+            </div>
+            <div class="mt1">
+                <div class="flex">
+                    <div class="flex flex-column">
+                        <lable>Price</lable>
+                        <select id="price">
+                            <option value="">All</option>
+                            <option value="25">Under $25</option>
+                            <option value="50">Under $50</option>
+                            <option value="100">Under $100</option>
+                            <option value="200">Under $200</option>
+                            <option value="300">Under $300</option>
+                            <option value="400">Under $400</option>
+                            <option value="500">Under $500</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-column ml2">
+                        <label>Color</label>
+                        <select id="color">
+                            <option value="">All</option>
+                            <option value="black">Black</option>
+                            <option value="blue">Blue</option>
+                            <option value="brown">Brown</option>
+                            <option value="orange">Orange</option>
+                            <option value="red">Red</option>
+                            <option value="yellow">Yellow</option>
+                        </select>
+                    </div>
                 </div>
-            </template>
+            </div>
+            <div id='results'>
+                <h2 class="hidden">No Products Found</h2>
+                <template id='list-result'>
+                    <ul id="product-list">
+                        <li>
+                            <div id="product-id" class="gray"></div>
+                            <div id="product-name" class="f5 dark-blue"></div>
+                            <div id="product-price" class="yellow"></div>
+                        </li>
+                    </ul>
+                </template>
+            </div>
         </div>
     </body>
     <footer>
