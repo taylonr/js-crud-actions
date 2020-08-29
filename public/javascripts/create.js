@@ -1,5 +1,5 @@
 document.getElementById("submit").onclick = function (evt) {
-  //   evt.preventDefault();
+  evt.preventDefault();
   const formData = new FormData(document.querySelector("form"));
 
   axios
