@@ -27,6 +27,7 @@ document.getElementById("submit").onclick = function () {
     .patch(`/api/products/${currentProduct.id}`, updatedFields)
     .then(({ data }) => console.log(data));
 };
+
 function loadProduct(data) {
   document.getElementsByName("name")[0].value = data.name;
   document.getElementsByName("price")[0].value = data.price;
